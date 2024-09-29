@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: HemendraSharma04/gh-action-test@latest
+      - uses: HemendraSharma04/gh-action-test@v4
         with:
           name-to-greet: 'GitHub Actions'
           slither-target: 'contracts/'  
